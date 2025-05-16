@@ -1,0 +1,6 @@
+title: VulnServer Labs Docs
+description: Official documentation for VulnServer Labs
+baseurl: "/docs"
+theme: minima
+markdown: kramdown
+permalink: pretty

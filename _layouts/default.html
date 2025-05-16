@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }} - VulnServer Labs Docs</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ '/' | relative_url }}">VulnServer Labs Docs</a></h1>
+      <input type="text" id="search-box" placeholder="Search docs..." />
+      <div id="search-results"></div>
+      <hr />
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <hr />
+      <p>&copy; 2025 VulnServer Labs</p>
+      <script src="{{ '/assets/js/lunr.min.js' | relative_url }}"></script>
+      <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+    </footer>
+  </body>
+</html>
