@@ -1,0 +1,162 @@
+[
+  {
+    "url": "/docs\\faq/docsmd",
+    "title": "FAQ",
+    "content": "# Frequently Asked Questions  ### How long are labs available? Each lab session lasts 8 hours from the time of provisioning.  ### Can I use my own tools? Yes \u2014 you can use any local or browser-based tools to test and analyze labs.  ### Are labs graded? Labs are self-paced. Writeups and flags are optionally reviewed if submitted."
+  },
+  {
+    "url": "/docs\\index/docsmd",
+    "title": "Home",
+    "content": "# VulnServer Labs Documentation  Welcome to the official VulnServer Labs documentation hub.  ## \ud83d\udcda Quick Links  - [Getting Started]({{ site.baseurl }}/getting-started/) - [User Guide]({{ site.baseurl }}/user-guide/) - [Lab Reference]({{ site.baseurl }}/lab-reference/) - [Advanced Usage]({{ site.baseurl }}/advanced-use/) - [Instructors]({{ site.baseurl }}/instructors/) - [Developers]({{ site.baseurl }}/developers/) - [Security]({{ site.baseurl }}/security/) - [FAQ]({{ site.baseurl }}/faq.html)"
+  },
+  {
+    "url": "/docs\\README/docsmd",
+    "title": "README",
+    "content": "![](https://www.vulnserverlabs.com/media/VSL-wht-logo-clean-transp.png)  https://vulnserverlabs.com |  https://vulnserver.net"
+  },
+  {
+    "url": "/docs\\advanced-use\\automation/docsmd",
+    "title": "Automation",
+    "content": "# Automation  Content for Automation goes here."
+  },
+  {
+    "url": "/docs\\advanced-use\\browser-tools/docsmd",
+    "title": "Browser Tools",
+    "content": "# Browser Tools  Content for Browser Tools goes here."
+  },
+  {
+    "url": "/docs\\advanced-use\\index/docsmd",
+    "title": "Advanced Use",
+    "content": "# Advanced Use  Explore the topics below in the **Advanced Use** section.  ## \ud83d\udcda Topics  - [Automation]({ '{ site.baseurl }' }/advanced-use/automation.html) - [Browser Tools]({ '{ site.baseurl }' }/advanced-use/browser-tools.html) - [Team Collab]({ '{ site.baseurl }' }/advanced-use/team-collab.html)"
+  },
+  {
+    "url": "/docs\\advanced-use\\team-collab/docsmd",
+    "title": "Team Collab",
+    "content": "# Team Collab  Content for Team Collab goes here."
+  },
+  {
+    "url": "/docs\\developers\\API-reference/docsmd",
+    "title": "Api Reference",
+    "content": "# Api Reference  Content for Api Reference goes here."
+  },
+  {
+    "url": "/docs\\developers\\index/docsmd",
+    "title": "Developers",
+    "content": "# Developers  Explore the topics below in the **Developers** section.  ## \ud83d\udcda Topics  - [Api Reference]({ '{ site.baseurl }' }/developers/API-reference.html) - [Terraform Hooks]({ '{ site.baseurl }' }/developers/terraform-hooks.html) - [Webhook Examples]({ '{ site.baseurl }' }/developers/webhook-examples.html)"
+  },
+  {
+    "url": "/docs\\developers\\terraform-hooks/docsmd",
+    "title": "Terraform Hooks",
+    "content": "# Terraform Hooks  Content for Terraform Hooks goes here."
+  },
+  {
+    "url": "/docs\\developers\\webhook-examples/docsmd",
+    "title": "Webhook Examples",
+    "content": "# Webhook Examples  Content for Webhook Examples goes here."
+  },
+  {
+    "url": "/docs\\getting-started\\create-account/docsmd",
+    "title": "Create Account",
+    "content": "# Create Account  Content for Create Account goes here."
+  },
+  {
+    "url": "/docs\\getting-started\\index/docsmd",
+    "title": "Getting Started",
+    "content": "# Getting Started  Explore the topics below in the **Getting Started** section.  ## \ud83d\udcda Topics  - [Create Account]({ '{ site.baseurl }' }/getting-started/create-account.html) - [Purchase Labs]({ '{ site.baseurl }' }/getting-started/purchase-labs.html) - [Magic Links]({ '{ site.baseurl }' }/getting-started/magic-links.html)"
+  },
+  {
+    "url": "/docs\\getting-started\\magic-links/docsmd",
+    "title": "Magic Links",
+    "content": "# Magic Links  Content for Magic Links goes here."
+  },
+  {
+    "url": "/docs\\getting-started\\purchase-labs/docsmd",
+    "title": "Purchase Labs",
+    "content": "# Purchase Labs  Content for Purchase Labs goes here."
+  },
+  {
+    "url": "/docs\\instructors\\create-class/docsmd",
+    "title": "Create Class",
+    "content": "# Create Class  Content for Create Class goes here."
+  },
+  {
+    "url": "/docs\\instructors\\index/docsmd",
+    "title": "Instructors",
+    "content": "# Instructors  Explore the topics below in the **Instructors** section.  ## \ud83d\udcda Topics  - [Create Class]({ '{ site.baseurl }' }/instructors/create-class.html) - [Manage Progress]({ '{ site.baseurl }' }/instructors/manage-progress.html) - [Lms Integration]({ '{ site.baseurl }' }/instructors/LMS-integration.html)"
+  },
+  {
+    "url": "/docs\\instructors\\LMS-integration/docsmd",
+    "title": "Lms Integration",
+    "content": "# Lms Integration  Content for Lms Integration goes here."
+  },
+  {
+    "url": "/docs\\instructors\\manage-progress/docsmd",
+    "title": "Manage Progress",
+    "content": "# Manage Progress  Content for Manage Progress goes here."
+  },
+  {
+    "url": "/docs\\lab-reference\\auth-bypass/docsmd",
+    "title": "Auth Bypass",
+    "content": "# Auth Bypass  Content for Auth Bypass goes here."
+  },
+  {
+    "url": "/docs\\lab-reference\\file-inclusion/docsmd",
+    "title": "File Inclusion",
+    "content": "# File Inclusion  Content for File Inclusion goes here."
+  },
+  {
+    "url": "/docs\\lab-reference\\index/docsmd",
+    "title": "Lab Reference",
+    "content": "# Lab Reference  Explore the topics below in the **Lab Reference** section.  ## \ud83d\udcda Topics  - [Web Vulns]({ '{ site.baseurl }' }/lab-reference/web-vulns.html) - [Auth Bypass]({ '{ site.baseurl }' }/lab-reference/auth-bypass.html) - [File Inclusion]({ '{ site.baseurl }' }/lab-reference/file-inclusion.html) - [Rce Chain]({ '{ site.baseurl }' }/lab-reference/rce-chain.html)"
+  },
+  {
+    "url": "/docs\\lab-reference\\rce-chain/docsmd",
+    "title": "Rce Chain",
+    "content": "# Rce Chain  Content for Rce Chain goes here."
+  },
+  {
+    "url": "/docs\\lab-reference\\web-vulns/docsmd",
+    "title": "Web Vulns",
+    "content": "# Web Vulns  Content for Web Vulns goes here."
+  },
+  {
+    "url": "/docs\\security\\data-retention/docsmd",
+    "title": "Data Retention",
+    "content": "# Data Retention  Content for Data Retention goes here."
+  },
+  {
+    "url": "/docs\\security\\index/docsmd",
+    "title": "Security",
+    "content": "# Security  Explore the topics below in the **Security** section.  ## \ud83d\udcda Topics  - [Sandbox]({ '{ site.baseurl }' }/security/sandbox.html) - [Logging]({ '{ site.baseurl }' }/security/logging.html) - [Data Retention]({ '{ site.baseurl }' }/security/data-retention.html)"
+  },
+  {
+    "url": "/docs\\security\\logging/docsmd",
+    "title": "Logging",
+    "content": "# Logging  Content for Logging goes here."
+  },
+  {
+    "url": "/docs\\security\\sandbox/docsmd",
+    "title": "Sandbox",
+    "content": "# Sandbox  Content for Sandbox goes here."
+  },
+  {
+    "url": "/docs\\user-guide\\index/docsmd",
+    "title": "User Guide",
+    "content": "# User Guide  Explore the topics below in the **User Guide** section.  ## \ud83d\udcda Topics  - [Launching Labs]({ '{ site.baseurl }' }/user-guide/launching-labs.html) - [Lab Ui Overview]({ '{ site.baseurl }' }/user-guide/lab-ui-overview.html) - [Submitting Writeups]({ '{ site.baseurl }' }/user-guide/submitting-writeups.html)"
+  },
+  {
+    "url": "/docs\\user-guide\\lab-ui-overview/docsmd",
+    "title": "Lab Ui Overview",
+    "content": "# Lab Ui Overview  Content for Lab Ui Overview goes here."
+  },
+  {
+    "url": "/docs\\user-guide\\launching-labs/docsmd",
+    "title": "Launching Labs",
+    "content": "# Launching Labs  Content for Launching Labs goes here."
+  },
+  {
+    "url": "/docs\\user-guide\\submitting-writeups/docsmd",
+    "title": "Submitting Writeups",
+    "content": "# Submitting Writeups  Content for Submitting Writeups goes here."
+  }
+]

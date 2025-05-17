@@ -21,7 +21,7 @@ def collect_docs(base_path):
     return pages
 
 if __name__ == "__main__":
-    base = "docs"
+    base = "."
     output_file = os.path.join(base, "search.json")
     data = collect_docs(base)
     with open(output_file, "w", encoding='utf-8') as out:
