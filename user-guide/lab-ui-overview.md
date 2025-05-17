@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Lab UI Overview
+title: Lab Ui Overview
 ---
 
-# Lab UI Overview
+# Lab Ui Overview
 
-Each lab features a terminal, HTTP viewer, and instructions panel.
+Content for Lab Ui Overview goes here.

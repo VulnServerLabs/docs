@@ -16,12 +16,12 @@ def collect_docs(base_path):
                     pages.append({
                         "url": url,
                         "title": title,
-                        "content": content[:1000]  # limit content to first 1000 chars
+                        "content": content[:1000]
                     })
     return pages
 
 if __name__ == "__main__":
-    base = "."
+    base = "docs"
     output_file = os.path.join(base, "search.json")
     data = collect_docs(base)
     with open(output_file, "w", encoding='utf-8') as out:

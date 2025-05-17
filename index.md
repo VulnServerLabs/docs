@@ -7,6 +7,13 @@ title: Home
 
 Welcome to the official VulnServer Labs documentation hub.
 
-👉 Start with [Getting Started](getting-started/)  
-👉 Browse [User Guide](user-guide/)  
-👉 Explore [Lab Reference](lab-reference/)  
+## 📚 Quick Links
+
+- [Getting Started]({{ site.baseurl }}/getting-started/)
+- [User Guide]({{ site.baseurl }}/user-guide/)
+- [Lab Reference]({{ site.baseurl }}/lab-reference/)
+- [Advanced Usage]({{ site.baseurl }}/advanced-use/)
+- [Instructors]({{ site.baseurl }}/instructors/)
+- [Developers]({{ site.baseurl }}/developers/)
+- [Security]({{ site.baseurl }}/security/)
+- [FAQ]({{ site.baseurl }}/faq.html)

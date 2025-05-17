@@ -5,4 +5,10 @@ title: Security
 
 # Security
 
-Understand how VulnServer Labs protects your data and lab environments.
+Explore the topics below in the **Security** section.
+
+## 📚 Topics
+
+- [Sandbox]({ '{ site.baseurl }' }/security/sandbox.html)
+- [Logging]({ '{ site.baseurl }' }/security/logging.html)
+- [Data Retention]({ '{ site.baseurl }' }/security/data-retention.html)

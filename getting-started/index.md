@@ -5,12 +5,10 @@ title: Getting Started
 
 # Getting Started
 
-Welcome to VulnServer Labs. This guide walks you through creating your account and launching your first lab.
+Explore the topics below in the **Getting Started** section.
 
-## 🔐 1. Create an Account
+## 📚 Topics
 
-You’ll receive a magic link to access your dashboard. [Learn how.](create-account.md)
-
-## 💳 2. Purchase a Lab Session
-
-Use Stripe checkout and pick the lab tier that fits your needs. [View plans.](purchase-labs.md)
+- [Create Account]({ '{ site.baseurl }' }/getting-started/create-account.html)
+- [Purchase Labs]({ '{ site.baseurl }' }/getting-started/purchase-labs.html)
+- [Magic Links]({ '{ site.baseurl }' }/getting-started/magic-links.html)

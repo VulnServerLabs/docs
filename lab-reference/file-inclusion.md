@@ -3,6 +3,6 @@ layout: default
 title: File Inclusion
 ---
 
-# File Inclusion Attacks
+# File Inclusion
 
-Learn to exploit local and remote file inclusion, file upload flaws, and path traversal.
+Content for File Inclusion goes here.

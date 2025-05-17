@@ -3,6 +3,6 @@ layout: default
 title: Create Account
 ---
 
-# Creating Your VulnServer Labs Account
+# Create Account
 
-To begin, simply enter your email on our signup form. We'll send you a secure Magic Link that logs you in automatically.
+Content for Create Account goes here.

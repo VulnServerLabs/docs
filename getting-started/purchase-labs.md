@@ -3,6 +3,6 @@ layout: default
 title: Purchase Labs
 ---
 
-# Purchase a Lab Session
+# Purchase Labs
 
-Lab sessions are available via Stripe Checkout. You can select a plan and launch your lab within minutes.
+Content for Purchase Labs goes here.

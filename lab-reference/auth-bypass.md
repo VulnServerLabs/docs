@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Authentication Bypass
+title: Auth Bypass
 ---
 
-# Authentication Bypass
+# Auth Bypass
 
-Explore vulnerabilities in login mechanisms such as weak tokens, JWT tampering, and session hijacking.
+Content for Auth Bypass goes here.

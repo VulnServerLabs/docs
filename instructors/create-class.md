@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Create a Class
+title: Create Class
 ---
 
-# Creating a Class
+# Create Class
 
-Learn how to enroll students, distribute lab access, and assign work using VulnServer Labs.
+Content for Create Class goes here.

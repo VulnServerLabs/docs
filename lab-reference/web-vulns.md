@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Web Vulnerabilities
+title: Web Vulns
 ---
 
-# Web Vulnerabilities
+# Web Vulns
 
-Covers XSS, SQL Injection, CSRF, and other web-related flaws commonly found in OWASP Top 10.
+Content for Web Vulns goes here.

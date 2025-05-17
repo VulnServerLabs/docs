@@ -5,4 +5,4 @@ title: Webhook Examples
 
 # Webhook Examples
 
-Use Stripe Checkout or other services to trigger lab provisioning workflows with example payloads.
+Content for Webhook Examples goes here.

@@ -3,6 +3,6 @@ layout: default
 title: Manage Progress
 ---
 
-# Managing Progress
+# Manage Progress
 
-Track student or team member progress through dashboard features and submission records.
+Content for Manage Progress goes here.

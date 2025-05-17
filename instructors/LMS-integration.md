@@ -1,8 +1,8 @@
 ---
 layout: default
-title: LMS Integration
+title: Lms Integration
 ---
 
-# LMS Integration
+# Lms Integration
 
-Preview of upcoming integrations with LMS platforms such as Canvas, Moodle, and Blackboard.
+Content for Lms Integration goes here.

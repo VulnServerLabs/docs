@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Remote Code Execution
+title: Rce Chain
 ---
 
-# Remote Code Execution (RCE)
+# Rce Chain
 
-Dive into labs that demonstrate how chained exploits can result in RCE, from LFI to deserialization.
+Content for Rce Chain goes here.

@@ -2,14 +2,13 @@ document.addEventListener('DOMContentLoaded', function () {
   const searchInput = document.getElementById('search-box');
   const resultsDiv = document.getElementById('search-results');
 
-  fetch('/docs/search.json')
+  fetch('{{ site.baseurl }}/search.json')
     .then(response => response.json())
     .then(data => {
       const idx = lunr(function () {
         this.ref('url');
         this.field('title');
         this.field('content');
-
         data.forEach(doc => this.add(doc));
       });
 
@@ -19,6 +18,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (query.length > 1) {
           const results = idx.search(query);
+          if (results.length === 0) {
+            resultsDiv.innerHTML = "<p>No results found.</p>";
+            return;
+          }
           results.forEach(result => {
             const match = data.find(d => d.url === result.ref);
             const div = document.createElement('div');

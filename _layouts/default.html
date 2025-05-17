@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>{{ page.title }} - VulnServer Labs Docs</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
   </head>
   <body>
     <header>
-      <h1><a href="{{ '/' | relative_url }}">VulnServer Labs Docs</a></h1>
+      <h1><a href="{{ site.baseurl }}/">VulnServer Labs Docs</a></h1>
       <input type="text" id="search-box" placeholder="Search docs..." />
       <div id="search-results"></div>
       <hr />
@@ -18,8 +18,8 @@
     <footer>
       <hr />
       <p>&copy; 2025 VulnServer Labs</p>
-      <script src="{{ '/assets/js/lunr.min.js' | relative_url }}"></script>
-      <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+      <script src="{{ site.baseurl }}/assets/js/lunr.min.js"></script>
+      <script src="{{ site.baseurl }}/assets/js/search.js"></script>
     </footer>
   </body>
 </html>

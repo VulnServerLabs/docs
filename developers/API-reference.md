@@ -1,8 +1,8 @@
 ---
 layout: default
-title: API Reference
+title: Api Reference
 ---
 
-# API Reference
+# Api Reference
 
-Details of any RESTful endpoints or internal tools exposed by the platform.
+Content for Api Reference goes here.

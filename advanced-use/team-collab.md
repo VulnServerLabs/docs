@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Team Collaboration
+title: Team Collab
 ---
 
-# Team Collaboration
+# Team Collab
 
-Strategies for using VulnServer Labs in classrooms, clubs, or team training environments.
+Content for Team Collab goes here.

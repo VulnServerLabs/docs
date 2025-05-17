@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Sandbox Environments
+title: Sandbox
 ---
 
-# Sandbox Environments
+# Sandbox
 
-Labs run in isolated sandboxes with limited lifetimes to ensure safe experimentation.
+Content for Sandbox goes here.
