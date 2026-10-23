@@ -1,0 +1,4 @@
+# Secret-scanning rules for gitleaks (used by CI and the pre-commit hook).
+# Start from the default rule set; add allowlists only for values verified to be public.
+[extend]
+useDefault = true

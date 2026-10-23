@@ -1,0 +1,4 @@
+
+# Hook scripts must keep LF line endings (sh cannot run CRLF scripts)
+.githooks/* text eol=lf
+.github/** text eol=lf
